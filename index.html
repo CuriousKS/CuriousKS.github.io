@@ -4,70 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KESHAV SAHU PORTFOLIO</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     
     
-    <style>
-	   
-	section,h1,h3{
-		color:#1a2a5a;	
-		font-size:2vh;
-		}
-	html{
-	//background-color:#1a2a5a;
-	}	
-		
-	body{
-	font-size:2.3vh;
-	border:2px solid #1a2a5a;
-	border-radius:0.7%;
-	margin:1%;
-	padding:0.5%;
-	background-color:white;
-	}
-		
-	.header{
-	text-align:center;
-	background-color:#1a2a5a;
-	color:white;
-	font-size:2.4vh;
-	   }
-	   
-	   img{
-		 width:11%;
-		 height:11%;
-		 margin:0.6%;
-		 display:inline-block;  
-		 border-radius:50%;
-		 }
-		 
-		 .personalInformation#one{
-			 display:inline-block;
-			 margin-left:1.3%;
-			 font-size:1.8vw;
-			 }
-			 
-		.personalInformation#two{
-			 display:inline-block;
-			 margin-left:16.7%;
-			 font-size:1.8vw;
-			 }
-    </style>
 </head>
 <body>
 <header><h1 class=header>Personal Details</h1></header>
 
-    
+<div id="personalInfo">    
 <div class=personalInformation  id=one>
      <b>Name:</b>Keshav Sahu <br/>
      <b>Date Of Birth:</b> 1 October 2001<br/>
-     <b>GitHub Profile: <u><a href="https://github.com/CuriousKS"> CuriousKS  </a></u></b>
+     <b><i class="fa-brands fa-github"></i> <u><a href="https://github.com/CuriousKS"> CuriousKS  </a></u></b>
  </div>  
  
  <div class=personalInformation id=two>    
      <b><u>Contact Details</u></b> <br/>
-     <b>Email:</b>keshav__sahu@outlook.com<br/>
+     <b><i class="fa-solid fa-envelope"></i></b>keshav__sahu@outlook.com<br/>
 </div>
-      
+ </div>     
      
      
 			<header><h1 class=header>  Education Background  </h1></header>
@@ -75,63 +31,75 @@
 
 			<section> <h2>Bachelors In Science : 2021-2024 </h2> </section>
 			<article>
-			<p> <b>University:</b> Mahatama Gandhi Kashi Vidyapith,Varanasi</p>
-			<ol>
+			<p><i class="fa-solid fa-building-columns"></i>   <u><b>Mahatama Gandhi Kashi Vidyapith,Varanasi</b></u>  </p>
+			<ul>
 				<li>Mathematics (Degree Level:3 year course)</li>
 				<li>Computer Science (Degree Level: 3 year course)</li>
 				<li>Physics (Diploma Level: 2 year course)</li>
-			</ol>
+			</ul>
 			  
 
 
 
-			  <section><h2>Masters In Computational Science & Applications : 2024-2026 </h2></section>
+			  <section><h2>Masters In Science : 2024-2026 </h2></section>
 			  <article>
-			  <p><b>University:</b> Banaras Hindu University <br>
-			  </p>
+			  <p><i class="fa-solid fa-building-columns"></i> <u><b> Banaras Hindu University </b></u> <br></p>
+			  <ul>
+				<li>Computational Science & Applications </li>
+			  </ul>
 			  </article>
 
-				<section><h1> Communication Skills  </h1></section>
+				<section><h2> Communication Skills  </h2></section>
 				Hindi<br/>
 				English
-				<section><h1> IT Skills  </h1></section>
-					<ul>  
-						<li> Python </li>
-						<li> SQL </li>
-						<li> FastAPI </li>
-						<li> SQLAlchemy </li>
-						<li> Python Selenium </li>
-						<li> HTML </li>
-						<li> CSS </li>
-						<li> Javascript </li>
-						<li> Git </li>
-						<li> GitHub </li>
-						<li> Docker </li>
-						<li> ReactJS </li>
-					</ul><br/>
+				<section><h2> IT Skills  </h2></section>
+				
+				<div id="IT">
+						<div id="python"> 
+							<div ><i class="fa-brands fa-python"></i> Python </div>
+							<div> &nbsp;&nbsp;&nbsp;&nbsp; FastAPI </div>
+							<div> &nbsp;&nbsp;&nbsp;&nbsp; SQLAlchemy </div>
+							<div> &nbsp;&nbsp;&nbsp;&nbsp; Selenium </div> 
+						</div>
+						
+						<div  id="frontend"> 
+							
+						<div> <i class="fa-brands fa-html5"></i> HTML </div>
+						<div> <i class="fa-brands fa-css3"></i> CSS </div> 
+						<div> <i class="fa-brands fa-js"></i> Javascript </div>
+						<div> <i class="fa-brands fa-react"></i> ReactJS </div>
+						</div>
+						
+						<div id='others'>
+							<div id="SQL"> <i class="fa-solid fa-database"></i> SQL </div>
+							<div> <i class="fa-brands fa-git-alt"></i> Git </div>
+						<div> <i class="fa-brands fa-github"></i> GitHub </div>
+						<div> <i class="fa-brands fa-docker"></i> Docker </div>
+						 </div>
+				</div>
+					<br/>
       
       <header><h1 class=header> Projects </h1></header>
 
 		<section><h2>KEYWORD  SCRAPER</h2></section>
 		<article>
 			This project prompts user for a keyword,which is basically any word you use  to search on website,
-			and outputs different suggested search results from some popular websites.
-			The project have two variant one without ReactJS & other with ReactJS.
+			and outputs different suggested search results from some popular search engines.
 			This application can be  helpful for trend analysis & SEO .
 			The application also allow user to save scraped data locally with the timestamp.
-			Docker file has also been provided.
+			Docker file has also been provided in the source code repository.
 
 
 		<h3>Technologies Used In Backend</h3>
 		 <article><ul>
-			<li>Python Selenium</li>
-			<li>Python FastAPI</li>
+			<li> Selenium</li>
+			<li> FastAPI</li>
 		</ul></article>
 
 
 		<h3>Technologies Used In Frontend</h3>
 		<ul>
-			<li>Reactjs</li>
+			<li>Jinja2</li>
 			<li>HTML</li>
 			<li>CSS</li>
 		</ul>
@@ -143,8 +111,17 @@
 		<br/>
 
 
-		<section><h2>Amazon-Frontend-Clone</h2></section>
+		<section><h2>Amazon Frontend Clone</h2></section>
+		<article>
+			<h3>Technologies Used In Frontend</h3>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>Javascript</li>
+			</ul>
+		</article>
 		<a href="Amazon-Frontend-Clone/home.html"> Link to the project </a>
+		
 
 </body>
 </html>
