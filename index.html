@@ -83,11 +83,14 @@
 
 		<section><h2>KEYWORD  SCRAPER</h2></section>
 		<article>
-			This project prompts user for a keyword,which is basically any word you use  to search on website,
-			and outputs different suggested search results from some popular search engines.
+			This project prompts user for a keyword,which is basically any word you use  to search on a search engine,
+			and outputs different suggested search words from some popular websites.
 			This application can be  helpful for trend analysis & SEO .
-			The application also allow user to save scraped data locally with the timestamp.
-			Docker file has also been provided in the source code repository.
+			The application also allow user to save scraped data locally with the timestamp.</br>
+			The project takes user input from a web page &  the request goes to an API created with the FastAPI .
+			The API internally uses a selenium based web scraper to scrape data from some  search engines & popular websites.
+			The project uses docker image of selenium to scrape data.
+			Docker file for whole project is given in the source code repository.
 
 
 		<h3>Technologies Used In Backend</h3>

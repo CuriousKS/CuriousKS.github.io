@@ -38,7 +38,7 @@ background-repeat:no-repeat;
 font-weight:lighter;
 font-size:1.2vw;
 width:6%;
-height:80%;
+height:7vh;
 }
 #box2_2{
 font-size:1.5vw;
@@ -70,7 +70,7 @@ text-align:center;
 }
 
 input{
-height:80%;
+height:5.2vh;
 width:70%;
 border-left:None; 
 }
@@ -78,7 +78,7 @@ border-left:None;
 
 #search_icon{
 display:inline;
-height:80%;
+height:5.2vh;
 //width:5%;
 background-color:orange;
 color:white;
