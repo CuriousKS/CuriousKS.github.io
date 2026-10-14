@@ -39,6 +39,7 @@ font-weight:lighter;
 font-size:1.2vw;
 width:6%;
 height:7vh;
+margin:1%;
 }
 #box2_2{
 font-size:1.5vw;
@@ -51,17 +52,17 @@ margin:0;
 //padding:10px 4px 10px 3px; 
 
 //font-size:0.6rem;
-height:80%;
 display:flex;
 align-items:center;
 justify-content:center;
 width:74%;
+height:5.2vh;
 }
 
 select{
 display:inline;
 background-color:#E6E6E6;
-height:80%;
+height:5.2vh;
 //width:5%;
 border-right:None; 
 border-top-left-radius:2px;
@@ -71,7 +72,7 @@ text-align:center;
 
 input{
 height:5.2vh;
-width:70%;
+width:100%;
 border-left:None; 
 }
 
@@ -81,7 +82,7 @@ display:inline;
 height:5.2vh;
 //width:5%;
 background-color:orange;
-color:white;
+color:black;
 
 border-left:None; 
 border-top-right-radius:2px;
@@ -207,86 +208,67 @@ justify-content:space-around;
 //padding:10%;
 } 
 
-#kitchen{
+
+.recommendations div{
+color:black;
+
 background-color:teal;
-height:60%;
-width:20.2%;
-background-image:url('kitchen.avif');
+height:50vh;
+width:30%;
 background-size:cover;
 background-repeat:no-repeat;
 border-radius:12px ;
 
-font-size:2.5vw;
+font-size:2vw;
 font-weight:900;
 
-margin:0.5%;
+margin:5px;
 padding:0.5%;
+}
+
+
+#kitchen{
+background-image:url('kitchen.avif');
+background-size:cover;
+background-repeat:no-repeat;
 }
 
 
 #beauty{
-background-color:teal;
-height:60%;
-width:20.2%;
 background-image:url('beauty.avif');
 background-size:cover;
 background-repeat:no-repeat;
-border-radius:12px ;
 
-font-size:2.5vw;
-font-weight:900;
-
-margin:0.5%;
-padding:0.5%;
 }
 
 #cloth{
-background-color:teal;
-height:60%;
-width:20.2%;
 background-image:url('cloth.avif');
 background-size:cover;
 background-repeat:no-repeat;
-border-radius:12px ;
 
-font-size:2.5vw;
-font-weight:900;
-
-margin:0.5%;
-padding:0.5%;
 }
 
 #toys{
-background-color:teal;
-height:60%;
-width:20.2%;
 background-image:url('toys.avif');
 background-size:cover;
 background-repeat:no-repeat;
-border-radius:12px ;
-
-font-size:2.5vw;
-font-weight:900;
-
-margin:0.5%;
-padding:0.5%;
 }
 
+
 #electronics{
-background-color:teal;
-height:60%;
-width:20.2%;
 background-image:url('electronics.avif');
 background-size:cover;
 background-repeat:no-repeat;
-border-radius:12px ;
 
-font-size:2.5vw;
-font-weight:900;
-
-margin:0.5%;
-padding:0.5%;
 }
+
+
+#books{
+background-image:url('books.avif');
+background-size:cover;
+background-repeat:no-repeat;
+}
+
 
 p{
 text-align:center;
@@ -296,6 +278,7 @@ text-align:center;
 .signin #p1{
 font-size:2rem;
 font-weight:500;
+text-align:center;
 }
 
 .signin button{
@@ -303,4 +286,5 @@ padding:10px 100px 10px 100px;
 background-color:yellow;
 color:black;
 border-radius:20px;
+text-align:center;
 }
